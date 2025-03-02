@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale">
+   <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="sortcut icon"
+      href="https://png.pngtree.com/element_pic/00/16/07/2357931cea79787.jpg"
+      type="image/png"
+      title="Icongeek26"
+    />
+    <meta name="autora" content="Luana Cristina" />
+    <link rel="stylesheet" href="style.css" />
+  <title>Lua Criativa</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <main>
+     <section class="cabecalho">
+        <div class="container">
+          <p class="cabecalho__texto">PlayList Luana</p>
+        </div>
+      </section>
+  <div class="display-flex">
+    <div class="sobre-musica__container">
+ <p class="sobre-musica__container-paragrafo">Não canso de escutar</p>
+  <ol>
+    <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=UC_IcHxQhnY" target="_blank">Tori Kelly - Hollow</a></li>  
+    <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=we53o02n7FQ" target="_blank">JP Cooper - Call My Name  </a> </li>
+     <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=pooBWyLEvks" target="blank">Daniela Araújo - Tempo</a> </li>
+</ol>
+    </div>
+  <div class="sobre-musica__container">
+  <p class="sobre-musica__container-paragrafo">Canto direto</p>
+  <ol>
+    <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=EvZoMjjD8KA">Sarah Reeves - Details</a></li>
+   <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=GpoIC-HreH8">Mauro Henrique - Descanso</a> 
+     </li>
+     <li><a class="sobre-musica__container-link" href="https://www.youtube.com/watch?v=4hfJtAe_pCY">Ben Rector- White Dress</a></li>
+  </ol>
+  </div>
+     <div class="sobre-musica__container">
+  <p class="sobre-musica__container-paragrafo">Recomendo</p>
+  <ul>
+    <li><a class="sobre-musica__container-link" href="https://www.youtube.com/playlist?list=PLEqhhqPrquVm4j-Pa7W-iC91_y4RXf8dc">Minha lista de música - só as melhores das melhores</a></li>
+    <li><a class="sobre-musica__container-link" href="https://www.youtube.com/playlist?list=FLCqBq0LvsOsXdTFaFBslToQ">Minha coleção de músicas favoritas 1</a></li>
+        <li><a class="sobre-musica__container-link" href="https://www.youtube.com/playlist?list=PLEqhhqPrquVkAeO9Oehq7n2pVUZv93I5L">Minha coleção de músicas favoritas 2</a></li>
+  </ul>
+       </div>
+</div>
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Calcular Média</h1>
+    </header>
+    <main class="conteudo-principal">
+      <section class="secao secao-hora">
+        <article class="secao__conteudo">
+          <div class="secao__formulario">
+            <fieldset>  
+              <legend>Qual a primeira nota?</legend>
+              <div class="secao__formulario__grupo" >
+                <label>Qual a segunda nota</label>
+                <input id="nota-um" type="number" value="0"></input>
+              </div>
+            </fieldset>
+            <fieldset >
+              <legend>Qual a terceira nota?</legend>
+              <div class="secao__formulario__grupo">
+                <label for="nota-dois">Horas por dia</label>
+                <input id="nota-dois" type="number" value="0"/>
+              </div>
+            </fieldset >
+             <fieldset>
+              <legend>Quantos dias você trabalha por mês?</legend>
+              <div class="secao__formulario__grupo">
+                <label for="nota-tres">Dias por mês</label>
+                <input id="nota-tres" type="number" value="0"/>
+              </div>
+            </fieldset>
+         <button onclick="calcularMediaAluno()">Calcular</button>
+          </div>
+        </article>
+        <footer class="secao__rodape">
+          <h3 class="secao__rodape__valor">
+            <span id="resposta">Media: 0 </span>
+          </h3>
+           <h3 class="secao__rodape__valor">
+            <span id="resultado">Situação: 0</span>
+          </h3>
+        </footer>
+      </section>
+      
+    </main>
+    <footer class="rodape">
+       <div class="container">
+                <p class="rodape__paragrafo">Feito por Luana Cristina. God bless you.</p>
+          <diV>
+               <img src="https://www.kindpng.com/picc/m/412-4121174_embroidery-designs-music-notes-hd-png-download.png">
+         </div>   
+                <p class="rodape__paragrafo2"><a href='https://www.freepik.com/'>Todas as imagens usadas foram do - https://www.kindpng.com/</a> </p> 
+        
+         </div>
+    </footer>
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=Edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Luana - Calculadora Projeto </title>
+    <link rel="icon" href="img/calculadora.ico"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <img src="img/calculadora.png"/>
+    </nav>
+    <header>
+      <h1>Calculadora Freelance</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div>
+            <fieldset>  
+              <legend>Quanto você ganha por mês?</legend>
+              <div>
+                <label>Quantidade por mês R$</label>
+                <input id="ganho-mes" type="number" value="0"></input>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Quantas horas você trabalha por dia?</legend>
+              <div>
+                <label for="horas-dia">Horas por dia</label>
+                <input id="horas-dia" type="number" value="0"/>
+              </div>
+            </fieldset>
+             <fieldset>
+              <legend>Quantos dias você trabalha por mês?</legend>
+              <div>
+                <label for="dias-mes">Dias por mês</label>
+                <input id="dias-mes" type="number" value="0"/>
+              </div>
+            </fieldset>
+            <button onclick="calcularValorHora()">Calcular</button>
+          </div>
+        </article>
+        <footer>
+          <h3>
+            <span id="reposta">R$ 0,00</span><small>/hora</small>
+            <p>Seu valor por hora</p>
+          </h3>
+        </footer>
+      </section>
+    </main>
+    <footer>Feito por Luana Cristina</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
